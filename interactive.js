@@ -165,16 +165,8 @@ function fight_0() {
   document.querySelector('#terminal').style = 'border-color: red;'
   document.querySelector('#terminal_0').innerHTML = "Enemy's Turn"
   var num = Math.floor(Math.random() * 5)
-  var list = ['brain_attack', 'brain_attack', 'speed_attack', 'speed_attack', 'power_attack']
-  if (brain_manipulation[1] > 2.5){
-    num = 4
-  } else if (speed_manipulation[1] > 10) {
-    if (brain_manipulation[1] > 3.5) {
-      num = 4
-    } else {
-      num = 0
-    }
-  }
+  var list = ['brain_attack', 'speed_attack', 'power_attack']
+
   console.log(list[num])
   setTimeout(() => {
     fight(list[num], false)
@@ -198,9 +190,9 @@ function fight(type, user_turn) {
         render(`Enemy outsmarted you, his next attack will come with ${brain_manipulation[1]}x more damage.`)
 
       } else {
-        var types = ['power_attack']
-
-        fight(types[0], false)
+        var types = ['speed_attack', 'power_attack']
+        var numb = Math.floor(Math.random() * 2)
+        fight(types[numb], false)
 
       }
     }
@@ -218,9 +210,9 @@ function fight(type, user_turn) {
           render(`Enemy is faster than you, your future power attacks will have a ${speed_manipulation[1]}x less chance of hitting the enemy!`)
 
         } else {
-          var types = ['power_attack']
-
-          fight(types[0], false)
+          var types = ['brain_attack', 'power_attack']
+          var numb = Math.floor(Math.random() * 2)
+          fight(types[numb], false)
 
         }
 
