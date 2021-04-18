@@ -166,10 +166,10 @@ function fight_0() {
   document.querySelector('#terminal_0').innerHTML = "Enemy's Turn"
   var num = Math.floor(Math.random() * 5)
   var list = ['brain_attack', 'brain_attack', 'speed_attack', 'speed_attack', 'power_attack']
-  if (brain_manipulation[1] > 5){
+  if (brain_manipulation[1] > 2.5){
     num = 4
   } else if (speed_manipulation[1] > 10) {
-    if (brain_manipulation[1] > 5) {
+    if (brain_manipulation[1] > 3.5) {
       num = 4
     } else {
       num = 0
