@@ -164,7 +164,7 @@ function time() {
 function fight_0() {
   document.querySelector('#terminal').style = 'border-color: red;'
   document.querySelector('#terminal_0').innerHTML = "Enemy's Turn"
-  var num = Math.floor(Math.random() * 5)
+  var num = Math.floor(Math.random() * 3)
   var list = ['brain_attack', 'speed_attack', 'power_attack']
 
   console.log(list[num])
