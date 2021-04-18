@@ -1,0 +1,111 @@
+.fight_0 {
+  color: aliceblue;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 20px;
+  display: none;
+}
+.seper {
+  margin-left: 50px
+}
+.output {
+  border-style: solid;
+  border-width: 5px;
+  border-color: blue;
+  background: #00004d;
+  color: aliceblue;
+  width: 95%;
+  height: 300px;
+  margin-right: 12px;
+  margin-left: 8px;
+  padding: 10px;
+  overflow:scroll;
+}
+.anc {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.color {
+  background-image: url("https://64.media.tumblr.com/4f845088f7c33bde0ba717ccc5303995/tumblr_p4uqoiC40w1tcvan1o1_1280.gifv");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  color:aliceblue;
+}
+.text {
+  text-align: center;
+  font-size: 100px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: aqua;
+  background-color: rgb(59,59,255);
+}
+h4 {
+  font-size:30px;
+  color: aliceblue;
+}
+p {
+  font-size:20px;
+  color:aliceblue;
+}
+.right{
+  margin-left: 10px;
+}
+.info {
+  display: none;
+  flex-wrap: nowrap;
+
+  justify-content: center;
+
+}
+.card0 {
+  border-style: solid;
+  border-color: blue;
+  width: 600px;
+  margin-right: 70px;
+  height: 1000px;
+  margin-bottom: 100px;
+  background-image: url('https://i.pinimg.com/originals/b5/66/af/b566af8bab8557bafb92a77717ab70f7.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.card1 {
+  border-style: solid;
+  border-color: blue;
+  width: 600px;
+  margin-left: 70px;
+  height: 1000px;
+  margin-bottom: 100px;
+  background-image: url('https://i.pinimg.com/originals/b5/66/af/b566af8bab8557bafb92a77717ab70f7.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.img1 {
+  z-index: 5;
+  margin-top: 225px;
+}
+.name_ {
+  font-size: 45px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom-style: solid;
+}
+.card_img{
+  border-style: solid;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 100px;
+  margin-left: 100px;
+  height: 600px;
+  width: 400px;
+}
+.card_text {
+  border-top-style: solid;
+  padding: 20px;
+  font-size: 20px;
+  color: aliceblue;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cyber Brawl</title>
+    <link rel="shortcut icon" type="image/jpg" href="https://cdn.discordapp.com/attachments/823652405580267621/833195506183438407/26835-4-punch.png">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  </head>
+  <body class='color'>
+    <script src="interactive.js"></script>
+    <div>
+      <p class="text">Cyber Brawl</p>
+    </div>
+    <div class="right">
+      <h4>How To Play</h4>
+      <p>Welcome to Cyber Brawl! This is a one-on-one combat game where you choose a superhero, villain, or anyone with some powers and fight a bot who is also a character just like you. In order to play all you need to do is select your character from the list of 14 provided. However, if you click on random then it will generate a random character for you to fight with, from a list of 731 characters. So there are many characters to choose from. Your opponent will be a random character, also from that list of 731. So, all you need to do is click a character, or random, and press start. Then you will see your characters attributes and characteristics. For example, it will show their power, intelect, strength, and other characteristics. Then press fight and your game begins! This is a battle of logic, as well as power. You will see three options: Intellect, Speed, and Power. Based on what you pick, that will affect the outcome of your game. Good luck and have fun!</p>
+    </div>
+    <div class="right">
+      <h4>Character Selection</h4>
+
+      <select id = 'character' class="btn btn-primary dropdown-toggle" id="cars" name="cars">
+        <option value="Select Your Character">Select Your Character</option>
+        <option value="Random_">Get Random Character</option>
+        <option value="One_Punch_Man">One Punch Man</option>
+        <option value="Shang_Chi">Shang-Chi</option>
+        <option value="Moonstone">Moonstone</option>
+        <option value="Abin_Sur">Abin Sur</option>
+        <option value="Plastique">Plastique</option>
+        <option value="Iron_Man">Iron Man</option>
+        <option value="Luna">Luna</option>
+        <option value="Hela">Hela</option>
+        <option value="Simon_Baz">Simon Baz</option>
+        <option value="Flash">Flash</option>
+        <option value="Godzilla">Godzilla</option>
+        <option value="Faora">Faora</option>
+        <option value="Atom_Girl">Atom Girl</option>
+        <option value="Sobek">Sobek</option>
+      </select>
+        <button id= 'sub' type="button" onClick = 'submits()' class="btn btn-info"><a class = 'anc' href = '#info'>Start</a></button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <div class = 'info' id = 'info'>
+      <div class = 'card0'>
+        <h1 id = 'name_0' class = 'name_'><h1>
+        <img class = 'card_img' id = 'img_0' src =''>
+        <div id = 'info_0' class = 'card_text'>
+
+        </div>
+      </div>
+      <img src='https://cdn.discordapp.com/attachments/823652405580267621/833149444857266226/Pngtreeversus_icon_button_trendy_moder_5983905.png' class ='img1' height = '450px' width = '450px'>
+      <div class = 'card1'>
+        <h1 id = 'name_1' class = 'name_'><h1>
+        <img class = 'card_img' id = 'img_1' src =''>
+        <div id = 'info_1' class = 'card_text'>
+
+        </div>
+      </div>
+      <br>
+
+    </div>
+
+<div id = 'fight' class = 'fight_0'>
+  <ul>
+    <li>Intelligence determines your character's ability to outsmart the enemy and increases power damage</li>
+    <li>Power is how much damage your character can inflict</li>
+    <li>Speed allows your character to dodge opponent's attack</li>
+  </ul>
+
+  <div class = 'seper'>
+<button id = 'h' type="button" onclick="fight('brain_attack', true); fight_0()" class="btn btn-info" style = 'color: aliceblue;margin: 30px;'>Intellect Attack</button>
+<button id= 'hi' type="button" onclick="fight('power_attack', true); fight_0()" class="btn btn-info" style = 'color: aliceblue;margin: 30px;'>Power Attack</button>
+<button id= 'hii' type="button" onclick="fight('speed_attack', true); fight_0()" class="btn btn-info" style = 'color: aliceblue;margin: 30px;'>Speed Attack</button>
+<button id= 'hiii' type="button" onclick="show_hp()" class="btn btn-info" style = 'color: aliceblue;margin: 30px;'>Show HP</button>
+<button id= 'hiiii' type="button" onclick="restart()" class="btn btn-info" style = 'color: aliceblue;margin: 30px;'>Restart Game</button>
+<div  class = 'output' id = 'terminal'>
+<p id = 'terminal_0' style='font-weight: bold;'>Player's Turn</p>
+<div id='terminal_'>
+</div>
+</div>
+</div></div>
+  </body>
+</html>

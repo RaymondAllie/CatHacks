@@ -1,0 +1,95 @@
+.body-of-loser{
+  background-color: rgb(255, 255, 255);
+}
+
+#slow-clap{
+text-align: center;
+color: rgb(212, 12, 12);
+margin-top: 100px;
+
+}
+
+#you-lost{
+  text-align: center;
+  font-size: 100px;
+  color: rgb(226, 43, 43);
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+#no{
+  text-align: center;
+  color: rgb(226, 20, 20);
+  margin-top: 20px;
+}
+
+#sad-meme{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius: 10%;
+}
+
+#prize2{
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(226, 43, 43);
+}
+
+.body-of-winner{
+  background-color: bisque;
+}
+
+#Applaud{
+text-align: center;
+color: rgba(51, 94, 11, 0.658);
+margin-top: 100px;
+
+}
+
+#you-won{
+  text-align: center;
+  font-size: 100px;
+  color: blueviolet;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+#love{
+  text-align: center;
+  color: rgba(51, 94, 11, 0.658);
+  margin-top: 20px;
+}
+
+#leo-gif{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius: 10%;
+}
+
+#prize{
+  margin-top: 20px;
+  text-align: center;
+  color: blueviolet;
+}
+
+.play-again{
+  color: rgb(255, 255, 255);
+  background: blueviolet;
+  padding: 12px;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.play-again2{
+  color: rgb(255, 255, 255);
+  background: rgb(226, 43, 43);
+  padding: 12px;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
