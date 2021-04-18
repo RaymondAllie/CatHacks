@@ -180,7 +180,7 @@ function fight(type, user_turn) {
       console.log(intelligence)
       if (intelligence[0] > intelligence[1]) {
         brain_manipulation[0] =  brain_manipulation[0] * ((((intelligence[0]/intelligence[1])-1)* .75)+1)
-        render(`Congragulations, you outsmarted the enemy, your next attack will do ${brain_manipulation[0]}x on the enemy!`)
+        render(`Congratulations, you outsmarted the enemy, your next attack will do ${brain_manipulation[0]}x on the enemy!`)
       } else {
         render('Your not smarter than your enemy, theres no hope for you using this tactic.')
       }
@@ -200,7 +200,7 @@ function fight(type, user_turn) {
       if (user_turn) {
         if (speed[0] > speed[1]) {
           speed_manipulation[0] =  speed_manipulation[0] * ((((speed[0]/speed[1])-1)* 0.3)+1)
-          render(`Congragulations, you are faster than the enemy, their future power attacks will have a ${speed_manipulation[0]}x less chance of hitting you!`)
+          render(`Congratulations, you are faster than the enemy, their future power attacks will have a ${speed_manipulation[0]}x less chance of hitting you!`)
         } else {
           render('You are not faster than your enemy, theres no hope for you using this tactic.')
         }
